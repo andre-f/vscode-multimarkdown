@@ -1,0 +1,39 @@
+{
+    "name": "vscode-multimarkdown",
+    "displayName": "MultiMarkdown",
+    "description": "MultiMarkdown support for Visual Studio Code",
+    "version": "0.1.0",
+    "publisher": "andrefischer",
+    "engines": {
+        "vscode": "^1.10.0"
+    },
+    "categories": [
+        "Languages"
+    ],
+    "contributes": {
+        "languages": [
+            {
+                "id": "multimarkdown",
+                "aliases": [
+                    "MultiMarkdown",
+                    "multimarkdown"
+                ],
+                "extensions": [
+                    ".md",
+                    ".markdown",
+                    ".mdown",
+                    ".markdn",
+                    ".mmd"
+                ],
+                "configuration": "./language-configuration.json"
+            }
+        ],
+        "grammars": [
+            {
+                "language": "multimarkdown",
+                "scopeName": "text.html.markdown.multimarkdown",
+                "path": "./syntaxes/multimarkdown.tmLanguage"
+            }
+        ]
+    }
+}
