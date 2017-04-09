@@ -2,8 +2,23 @@
     "name": "vscode-multimarkdown",
     "displayName": "MultiMarkdown",
     "description": "MultiMarkdown support for Visual Studio Code",
-    "version": "0.1.0",
+    "version": "0.1.1",
     "publisher": "andrefischer",
+    "author": {
+        "name": "André Fischer",
+        "email": "amfischer@gmail.com"
+    },
+    "keywords": [
+        "MultiMarkdown"
+    ],
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/andre-f/vscode-multimarkdown.git"
+    },
+    "bugs": {
+        "url": "https://github.com/andre-f/vscode-multimarkdown/issues",
+        "email": "amfischer@gmail.com"
+    },
     "engines": {
         "vscode": "^1.10.0"
     },
